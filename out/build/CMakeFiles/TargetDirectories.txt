@@ -1,4 +1,0 @@
-C:/Users/jwbar/dev/Raycaster/out/build/CMakeFiles/glad.dir
-C:/Users/jwbar/dev/Raycaster/out/build/CMakeFiles/Raycaster.dir
-C:/Users/jwbar/dev/Raycaster/out/build/CMakeFiles/edit_cache.dir
-C:/Users/jwbar/dev/Raycaster/out/build/CMakeFiles/rebuild_cache.dir
