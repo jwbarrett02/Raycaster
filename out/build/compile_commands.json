@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/jwbar/dev/Raycaster/out/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DSDL_STATIC -IC:/Users/jwbar/dev/Raycaster/deps/glad/include -IC:/Users/jwbar/dev/Raycaster/deps/SDL3/include -g -o CMakeFiles\\glad.dir\\deps\\glad\\src\\glad.c.obj -c C:\\Users\\jwbar\\dev\\Raycaster\\deps\\glad\\src\\glad.c",
+  "file": "C:\\Users\\jwbar\\dev\\Raycaster\\deps\\glad\\src\\glad.c",
+  "output": "CMakeFiles\\glad.dir\\deps\\glad\\src\\glad.c.obj"
+},
+{
+  "directory": "C:/Users/jwbar/dev/Raycaster/out/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSDL_STATIC -IC:/Users/jwbar/dev/Raycaster/deps/SDL3/include -IC:/Users/jwbar/dev/Raycaster/include -IC:/Users/jwbar/dev/Raycaster/deps/glad/include -g -o CMakeFiles\\Raycaster.dir\\src\\main.cpp.obj -c C:\\Users\\jwbar\\dev\\Raycaster\\src\\main.cpp",
+  "file": "C:\\Users\\jwbar\\dev\\Raycaster\\src\\main.cpp",
+  "output": "CMakeFiles\\Raycaster.dir\\src\\main.cpp.obj"
+}
+]

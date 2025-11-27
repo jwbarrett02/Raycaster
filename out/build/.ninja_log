@@ -1,0 +1,5 @@
+# ninja log v7
+23	410	7859589712952599	CMakeFiles/Raycaster.dir/src/main.cpp.obj	939acbda6cd64646
+16	2866	7859588830651153	CMakeFiles/glad.dir/deps/glad/src/glad.c.obj	e4ac85c80d104479
+2866	3081	7859588859015022	libglad.a	711accee9f017eeb
+411	532	7859589716708495	Raycaster.exe	57a6af1af80654d3
