@@ -1,6 +1,8 @@
-#include "initSDL.hpp"
+#include "SDLManager.hpp"
+#include "GLManager.hpp"
 #include <iostream>
 #include <glad/glad.h>
+#include <SDL3/SDL.h>
 #include <SDL3/SDL_opengl.h>
 
 int main() {
@@ -39,10 +41,7 @@ int main() {
         return 1;
     }
 
-    if (!gladLoadGL()) {
-        std::cerr << "Failed to initialize GLAD\n";
-        return 1;
-    }
+    initGL();
 
     // main loop
     bool running = true;

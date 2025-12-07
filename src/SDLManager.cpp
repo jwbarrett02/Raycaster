@@ -1,4 +1,5 @@
-#include "initSDL.hpp"
+#include "SDLManager.hpp"
+#include <SDL3/SDL.h>
 #include <stdexcept>
 
 static bool sdlInitialized = false;
