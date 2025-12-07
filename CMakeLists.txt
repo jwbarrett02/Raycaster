@@ -7,7 +7,7 @@ set(GLAD_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/deps/glad/include")
 set(GLAD_SRC         "${CMAKE_SOURCE_DIR}/deps/glad/src/glad.c")
 
 add_library(glad STATIC ${GLAD_SRC})
-target_include_directories(glad PUBLIC ${GLAD_INCLUDE_DIR})
+target_include_directories( glad PUBLIC ${GLAD_INCLUDE_DIR})
 
 # OpenGL =======================================================
 find_package(OpenGL REQUIRED)
