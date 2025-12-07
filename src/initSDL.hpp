@@ -1,10 +1,10 @@
-#ifndef INIT_SDL_H
-#define INIT_SDL_H
+#ifndef INIT_SDL_HPP
+#define INIT_SDL_HPP
 #pragma once
 
 #include <SDL3/SDL.h>
 
-void InitSDL();
-void QuitSDL();
+void initSDL();
+void quitSDL();
 
 #endif

@@ -3,7 +3,7 @@
 
 static bool sdlInitialized = false;
 
-void InitSDL() {
+void initSDL() {
     if (sdlInitialized)
         return;
 
@@ -15,7 +15,7 @@ void InitSDL() {
     sdlInitialized = true;
 }
 
-void QuitSDL() {
+void quitSDL() {
     if (!sdlInitialized)
         return;
 

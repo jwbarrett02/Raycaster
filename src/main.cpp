@@ -7,7 +7,7 @@ int main() {
 
     std::cout << "Program started...\n";
 
-    InitSDL();
+    initSDL();
 
     std::cout << "SDL initialized...\n";
 
@@ -63,7 +63,7 @@ int main() {
     // clean up
     SDL_GL_DestroyContext(gl_context);
     SDL_DestroyWindow(window);
-    QuitSDL();
+    quitSDL();
 
     return 0;
 }
