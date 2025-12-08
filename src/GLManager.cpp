@@ -3,8 +3,8 @@
 #include <glad/glad.h>
 #include <stdexcept>
 
-void initGL() {
+void InitGL() {
     if (!gladLoadGLLoader((GLADloadproc)SDL_GL_GetProcAddress)) {
-        throw std::runtime_error(std::string("gladLoadGLLoader failed: ") + SDL_GetError());
+        throw std::runtime_error(std::string("Failed to initialize glad: ") + SDL_GetError());
     }
 }

@@ -4,19 +4,19 @@
 
 static bool sdlInitialized = false;
 
-void initSDL() {
+void InitSDL() {
     if (sdlInitialized)
         return;
 
-    // TODO: Add more flags into this statement as SDL functionality is needed.
+    // TODO: Add more flags as SDL functionality is needed.
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
-        throw std::runtime_error(std::string("SDL_Init failed: ") + SDL_GetError());
+        throw std::runtime_error(std::string("Failed to initialize SDL: ") + SDL_GetError());
     }
 
     sdlInitialized = true;
 }
 
-void quitSDL() {
+void QuitSDL() {
     if (!sdlInitialized)
         return;
 

@@ -2,7 +2,7 @@
 #define SDL_MANAGER_HPP
 #pragma once
 
-void initSDL();
-void quitSDL();
+void InitSDL();
+void QuitSDL();
 
 #endif

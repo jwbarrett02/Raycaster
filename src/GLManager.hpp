@@ -2,6 +2,6 @@
 #define GL_MANAGER_HPP
 #pragma once
 
-void initGL();
+void InitGL();
 
 #endif
